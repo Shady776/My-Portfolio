@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">shady.</div>
+            <ul class="navItems">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <div class="links">
+                <a href="http://wa.me/+2347046469984"><i class="fab fa-linkedin"></i></a>
+                <a href="http://wa.me/+2347046469984"><i class="fab fa-instagram"></i></a>
+                <a href="http://wa.me/+2347046469984"><i class="fab fa-twitter"></i></a>
+                <a href="http://wa.me/+2347046469984"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm a <span class="multiText"></span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, minus illum quis eaque iste explicabo, quasi nostrum vero voluptate consectetur porro iure nobis dolor impedit aperiam similique quidem. Quas, quae.</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="./images/car1-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", { 
+            strings : ["programmer", "data scientist", "python developer"],
+            loop: true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
